@@ -1,0 +1,187 @@
+/*********************** TAGS SELECTOR *********************/
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  font-size: 1rem;
+  background-color: #F9F9F9;
+  color: #40515E;
+
+}
+
+p{
+  line-height: 2;
+}
+
+h1{
+  color: #F38BA0;
+  margin: 50px auto 0 auto;
+  font-family: 'Montez', cursive;
+  font-size: 5.62rem;
+}
+
+h2{
+  color: #71C9CE;
+}
+
+h3{
+  color: #F38BA0;
+}
+
+hr{
+  border: none;
+  border-top-style: dotted;
+  color: grey;
+  border-width: 5px;
+  height: 5px;
+  width: 5%
+}
+
+a{
+  text-decoration: none;
+  color: #F38BA0;
+}
+
+a:hover{
+  color: #E3FDFD;
+}
+
+/*********************** CLASS SELECTOR *********************/
+
+/* DIVS */
+
+.topContainer{
+  background-color: #E3FDFD;
+  position: relative;
+  padding: 100px;
+  height: 500px;
+
+}
+
+.middleContainer{
+
+}
+
+.bottomContainer{
+  padding-top:  20px;
+  background-color: #FFBCBC;
+  height:100px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.profile{
+  margin-bottom: 50px;
+}
+
+.skills{
+  margin-top: 50px;
+}
+
+.contact-me{
+  margin-top: 50px;
+}
+
+/* IMAGES */
+
+.topCloud{
+  position: absolute;
+  top: 50px;
+  right: 340px;
+}
+
+.bottomCloud{
+  position: absolute;
+  left: 340px;
+  bottom: 300px;
+}
+
+.profilePhoto{
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+}
+
+.skillImg{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.workImg{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+/* buttons */
+.buttonContact {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Trebuchet MS;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #F38BA0;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px auto 40px auto;
+}
+
+.buttonContact:hover {
+   background: #CBF1F5;
+   /* border: solid #CBF1F5 1px;*/
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+/* OTHER */
+.copyright{
+  color: #E3FDFD;
+  font-size: 0.85rem;
+  padding-top: 10px;
+
+}
+
+.footer-link{
+  padding: 20px;
+}
+
+.bottom-txt{
+  width: 40%;
+  margin: auto;
+}
+
+.img-coding{
+  width: 40%;
+  position: absolute;
+  left: 15%;
+  top:15%;
+}
+
+.description{
+  position: relative;
+  left: 52%;
+  top:20%;
+  width: 35%;
+
+}
+
+.main-txt{
+  font-size: 1.2rem;
+  padding: 2% 20%;
+}
